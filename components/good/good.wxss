@@ -1,0 +1,7 @@
+.good {
+    background-color: #888;
+}
+
+.good view {
+    display: inline-block;
+}
