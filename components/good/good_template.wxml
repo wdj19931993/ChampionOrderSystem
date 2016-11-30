@@ -1,8 +1,8 @@
 <template name="good">
-  <div class="good"> 
-    <view>{{ name }}</view>
-    <view>{{ price }}</view>
-    <view>{{ description }}</view>
-    <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="{{image}}"></image>
+  <div class="good" bindtap="good_click"> 
+    <view class="name">{{ name }}</view>
+    <view class="price">{{ price }}</view>
+    <view class="description">{{ description }}</view>
+    <image style="background-color: #eeeeee;" src="{{image}}"></image>
   </div>
 </template>

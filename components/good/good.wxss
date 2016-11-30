@@ -1,7 +1,30 @@
 .good {
-    background-color: #888;
+    /*background-color: #888;*/
+    padding: 32rpx;
 }
 
 .good view {
+    margin-left: 80rpx;
     display: inline-block;
+}
+
+.good image{
+    width: 150rpx;
+    height: 150rpx;
+    float:left;
+}
+
+.good .name{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.good .price{
+    color: red;
+    font-size: 40rpx;
+}
+
+.good .description{
+    color: #888;
+    font-size: 36rpx;
 }

@@ -14,6 +14,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  good_click: function(){
+    wx.showToast({
+      title: '成功',
+      icon: 'success'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
